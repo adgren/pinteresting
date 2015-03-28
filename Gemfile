@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
+ruby '2.1.5'
 
-
+gem 'devise'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.8'
 # Use SCSS for stylesheets
@@ -22,6 +23,8 @@ gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0'
+
+gem 'tzinfo-data'
 
 group :development, :test do
      gem 'sqlite3'
