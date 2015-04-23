@@ -3,6 +3,8 @@ ruby '2.1.5'
 
 gem 'paperclip', '~> 4.2'
 
+gem 'aws-sdk', '< 2.0'
+
 gem 'devise'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.8'
